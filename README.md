@@ -1,21 +1,26 @@
-# Machine Learning Labs
+# ML From Scratch
 
-Implémentations from scratch (NumPy) réalisées dans le cadre du module Machine Learning du Master Finance & Ingénierie Quantitative à l'ECE Paris.
+Implémentation de trois algorithmes de machine learning fondamentaux en Python/NumPy, sans bibliothèque de ML — uniquement l'algèbre linéaire et le calcul différentiel sous-jacents.
 
 ## Contenu
 
-- **tp1-regression-lineaire** — Régression linéaire par solution analytique (closed-form) et par descente de gradient stochastique (SGD).
-- **tp2-reseau-neurones** — Réseau de neurones feedforward (FFNN) avec rétropropagation, entraîné sur un problème de classification.
-- **tp3-kmeans** — Clustering K-means (assignation et mise à jour des centroïdes) implémenté sans bibliothèque de ML.
+### [linear-regression](linear-regression)
+Régression linéaire par solution analytique (équation normale) et par descente de gradient stochastique.
+
+### [neural-network](neural-network)
+Réseau de neurones feedforward avec rétropropagation, entraîné sur un problème de classification.
+
+### [kmeans-clustering](kmeans-clustering)
+Clustering K-means : assignation aux centroïdes et mise à jour itérative jusqu'à convergence.
 
 ## Utilisation
 
 ```bash
 pip install -r requirements.txt
-python tp1-regression-lineaire/closed_form_solution.py
-python tp1-regression-lineaire/gradient_descent_stochastique.py
-python tp2-reseau-neurones/ffnn.py
-python tp3-kmeans/kmeans.py
+python linear-regression/closed_form_solution.py
+python linear-regression/gradient_descent_stochastic.py
+python neural-network/feedforward_neural_network.py
+python kmeans-clustering/kmeans.py
 ```
 
-Chaque script charge son propre jeu de données (fichier `.txt` du même dossier) et affiche les résultats via matplotlib.
+Chaque script charge son propre jeu de données et affiche les résultats via matplotlib.

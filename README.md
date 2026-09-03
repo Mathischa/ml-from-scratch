@@ -1,6 +1,6 @@
 # ML From Scratch
 
-Implémentation de trois algorithmes de machine learning fondamentaux en Python/NumPy, sans bibliothèque de ML — uniquement l'algèbre linéaire et le calcul différentiel sous-jacents.
+Implémentation de trois algorithmes de machine learning fondamentaux en Python/NumPy, sans bibliothèque de ML, uniquement l'algèbre linéaire et le calcul différentiel sous-jacents.
 
 ## Contenu
 
